@@ -1,0 +1,41 @@
+.sidebar{
+  position: fixed;
+  left: 0;
+  top: 56px;
+  bottom: 0;
+  width: 70px;
+  z-index: 200;
+  padding-top: 5px;
+  background-color: white;
+}
+.home-button,
+.explore-button,
+.subscribe-button,
+.originals-button,
+.music-button,
+.library-button{
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home,
+.explore,
+.subscribe,
+.originals,
+.music,
+.library{
+  width: 23px;
+}
+.title{
+  font-size: 10px;
+}
+.home-button:hover,
+.explore-button:hover,
+.subscribe-button:hover,
+.originals-button:hover,
+.music-button:hover,
+.library-button:hover{
+  background-color: rgb(226, 223, 223);
+}
